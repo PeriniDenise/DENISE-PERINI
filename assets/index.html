@@ -1,0 +1,77 @@
+    <!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Home pagina personale di Denise Perini">
+  <meta name="keywords" content="portfolio, Denise Perini, progetti, contatti">
+  <meta name="robots" content="index, follow">
+  <meta name="author" content="Denise Perini">
+  <meta name="theme-color" content="#121212">
+  <title>Denise Perini</title>
+  <link rel="icon" href="../img/favicon.ico" type="image/x-icon">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <nav role="navigation" aria-label="Navigazione principale">
+    <div class="logo">Denise Perini</div>
+    
+    <input type="checkbox" id="menu-toggle" />
+    <label for="menu-toggle" class="hamburger" aria-label="Apri menu"> &#9776; </label>
+    <ul class="nav-links">
+      <li><a href="#home" class="active">Home</a></li>
+      <li><a href="#contatti">Contatti</a></li>
+      <li><a href="portfolio/index.html">Portfolio</a></li>
+      <li><a href="cv/index.html">Cv</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+  <section id="home" class="container my-5">
+    <h1 class="mt-1">Ciao, sono Denise Perini</h1>
+    <div class="col-md-12 mt-3">
+      <div class="text-center">
+        <p>Data Analyst e Full Stack Developer in formazione. Su questo sito trovi i progetti che ho realizzato durante il mio percorso su start2impact, dove ho costruito e sto costruendo competenze solide in Data Analysis, Sviluppo Web e AI.</p>
+        <a href="portfolio/index.html" class="btn mt-2">Scopri i miei progetti</a>
+      </div>    
+    </div>
+ </section>
+
+  <section id="chi-sono" class="container my-5">
+    <h2>Qualcosa su di me</h2>
+    <div class="col-md-12 mt-3">
+      <div class="text-center">
+        <p> Sto costruendo il mio percorso nel mondo della tecnologia e dell’innovazione, partendo da una forte motivazione personale: unire strumenti digitali e creatività per creare valore, connessioni e soluzioni utili.</p>
+        <p> Dopo un percorso iniziale in ambito sociale e umanistico, ho deciso di ampliare le mie competenze entrando nel mondo della <strong>Data Analysis</strong>. Grazie alla piattaforma <strong>start2impact</strong>, ho imparato a lavorare con i dati in modo strutturato, utilizzando strumenti come <em>Excel, SQL, Python e Tableau</em> per analizzare, visualizzare e raccontare storie significative attraverso i numeri.</p>
+        <p> Oggi sto proseguendo il mio percorso con il Master in <strong>Full Stack Development</strong> e <strong>Intelligenza Artificiale</strong>, unendo le competenze di sviluppo web con la curiosità verso il mondo dell’AI. Questo mi permette di creare progetti completi, dall’interfaccia alla logica, e di immaginare nuove applicazioni che uniscano tecnica e impatto sociale.</p>
+        <p> Credo nella formazione continua, nel lavoro collaborativo e nei progetti che parlano alle persone. Ogni progetto su cui lavoro è un tassello del mio percorso, e questo sito è il modo per condividerli con te. </p>
+        <p> Se vuoi vedere cosa ho creato finora, ti invito a esplorare la sezione <a href="portfolio/index.html">Portfolio</a>. E se vuoi sapere di più, scrivimi: sono sempre felice di confrontarmi, raccontarmi e mettermi in gioco.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contatti" class="container my-5">
+  <h2>Contattami</h2>
+  <form id="contact-form" action="https://formspree.io/f/mgvynbor" method="POST">
+    <label for="nome">Nome</label>
+    <input type="text" id="nome" name="nome" required>
+
+    <label for="email">Email</label>
+    <input type="email" id="email" name="_replyto" required>
+
+    <label for="messaggio">Messaggio</label>
+    <textarea id="messaggio" name="messaggio" required></textarea>
+
+    <button type="submit" class="btn" name="submit" aria-label="Invia il messaggio">Invia</button>
+  </form>
+</section>
+</main>
+<footer>
+  © 2025 Denise Perini – Tutti i diritti riservati
+</footer>
+</body>
+</html>
